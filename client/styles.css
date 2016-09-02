@@ -1,0 +1,32 @@
+h2 {
+	font-weight: 300;
+}
+
+select {
+	height: 52px !important;
+	background-color: #F2F2F2 !important;
+	right: 15px;
+	color: black !important;
+}
+
+keygen, select {
+	color: #5A5A5A !important;
+}
+
+.input-list {
+	margin-top: 100px !important;
+	max-width: 72%;
+}
+
+.input {
+	margin: auto;
+	width: 100% !important;
+}
+
+.input-text {
+	border-radius: 2% !important;
+}
+
+.error-message {
+	color: #ff0033;
+}

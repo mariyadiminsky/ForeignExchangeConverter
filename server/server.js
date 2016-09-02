@@ -11,7 +11,6 @@ const port = 3000;
 app.use(webpackDevMiddleware(compiler, {noInfo: true, publicPath: config.output.publicPath}))
 app.use(webpackHotMiddleware(compiler));
 
-app.use(express.static('./dist'));
 app.use(express.static('client'));
 
 app.listen(port, function(err) {
